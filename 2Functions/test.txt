@@ -1,0 +1,9 @@
+.indent-guide-improved {
+  background-color: gray;
+  &.indent-guide-stack {
+    background-color: cyan;
+    &.indent-guide-active {
+      background-color: blue;
+    }
+  }
+}
